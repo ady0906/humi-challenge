@@ -38,7 +38,7 @@ p {
   background-color: rgba(0,0,0,0.05);
 }
 
-.logo {
+.logoHumi {
   position: absolute;
   width: 25px;
   height: 25px;
@@ -48,13 +48,24 @@ p {
   background-image: url(../assets/logo_gray.png);
 }
 
+#intercom {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-size: 100% 100%;
+  background-image: url(../assets/intercom-chat-icon.png);
+}
+
 .textHeader {
   position: absolute;
   left: 55px;
-  top: 0px;
-  font-size: 20px;
-  line-height: 25px;
   text-align: center;
   font-weight: 500;
   color: #5b5b57;
+}
+
+.topBar {
+  top: 0px;
+  font-size: 20px;
+  line-height: 25px;
 }
