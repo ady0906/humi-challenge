@@ -26,27 +26,16 @@ div {
 }
 
 .headbarLine {
-  /*#title-border {
-    text-align: center;
-    border-top: solid white 1px;
-    width: 17%;
-    margin-left: 41.5%;
-  }*/
-  /*border-top: solid black 1px;
-  margin-left: 18px;
-  margin-right: 18px;
-  text-align: center;
-  /*border-color: rgba(0,0,0,0.05);*/
-  /*position: absolute;*/
-    position: absolute;
-    left: 20px;
-    right: 20px;
-    height: 1px;
-    bottom: 0px;
-    background-color: rgba(0,0,0,0.05);
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  height: 1px;
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.05);
 }
 
 .logo {
+  position: absolute;
   width: 25px;
   height: 25px;
   left: 20px;
