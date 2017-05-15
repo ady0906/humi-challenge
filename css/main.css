@@ -13,6 +13,10 @@ div {
   display: block;
 }
 
+p {
+  font-family: 'Hind', sans-serif;
+}
+
 .headbar {
   position: fixed;
   left: 0%;
@@ -42,5 +46,15 @@ div {
   top: 18px;
   background-size: 100% 100%;
   background-image: url(../assets/logo_gray.png);
+}
 
+.textHeader {
+  position: absolute;
+  left: 55px;
+  top: 0px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 500;
+  color: #5b5b57;
 }
