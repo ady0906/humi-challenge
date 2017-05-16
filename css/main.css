@@ -139,7 +139,28 @@ a {
 }
 
 .payrollBox {
-  border-radius: 25%;
+  border-style: solid;
+  border-radius: 2%;
   border-width: 1px;
   border-color: rgba(0,0,0,0.05);
+}
+
+.payrollOptions {
+  position: absolute;
+  top: 5.5em;
+  left: 12em;
+  width: 15em;
+  height: 8.5em;
+  padding-bottom: 16px;
+}
+
+.row {
+  font-weight: 200;
+  font-size: 18px;
+  color: #5b5b57;
+}
+
+.boxIcons {
+  width: 25px;
+  height: 25px;
 }
