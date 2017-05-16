@@ -94,6 +94,15 @@ a {
   background-color: rgba(0,0,0,0.05);
 }
 
+#humi-blue {
+  width: 25px;
+  height: 25px;
+  border-radius: 8%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6FB9EF;
+}
+
 .userName {
   font-weight: 200;
   color: #5b5b57;
@@ -149,18 +158,21 @@ a {
   position: absolute;
   top: 5.5em;
   left: 12em;
-  width: 15em;
-  height: 8.5em;
-  padding-bottom: 16px;
+  width: 16em;
+  height: 10em;
 }
 
 .row {
   font-weight: 200;
   font-size: 18px;
   color: #5b5b57;
+  text-align: left;
+  margin-left: 10px;
 }
 
 .boxIcons {
+  top: 6px;
+  position: relative;
   width: 25px;
   height: 25px;
 }
