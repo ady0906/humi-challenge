@@ -60,7 +60,6 @@ p {
   position: absolute;
   left: 55px;
   text-align: center;
-  font-weight: 500;
   color: #5b5b57;
 }
 
@@ -68,4 +67,12 @@ p {
   top: 0px;
   font-size: 20px;
   line-height: 25px;
+}
+
+.profile {
+
+}
+
+#intercom-container {
+  background: #53bbf4 !important;
 }
