@@ -17,6 +17,11 @@ p {
   font-family: 'Hind', sans-serif;
 }
 
+a {
+  color: #c1c1bf;
+  font-weight: 300;
+}
+
 .headbar {
   position: fixed;
   left: 0%;
