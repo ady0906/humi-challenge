@@ -26,7 +26,7 @@ p {
   height: 40px;
   padding-top: 23px;
   bottom: 0px;
-  background-color: rgba(255,255,255,0.95);
+  /*background-color: rgba(255,255,255,0.95);*/
 }
 
 .headbarLine {
@@ -48,12 +48,16 @@ p {
   background-image: url(../assets/logo_gray.png);
 }
 
-#intercom {
+.avatarUser {
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
+  right: 20px;
+  top: 18px;
+  border-radius: 50%;
+  border: 0.5px solid lightgrey;
   background-size: 100% 100%;
-  background-image: url(../assets/intercom-chat-icon.png);
+  background-image: url(../assets/avatar_ap.png)
 }
 
 .textHeader {
@@ -72,6 +76,13 @@ p {
 .profile {
   color: #c1c1bf;
   font-weight: 200;
+}
+
+.navBarRight {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-align: right;
 }
 
 #intercom-container {
