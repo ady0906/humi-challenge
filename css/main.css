@@ -73,8 +73,16 @@ a {
   bottom: 18px;
   border-radius: 50%;
   border: 0.5px solid lightgrey;
-  background-size: 100%
-  background-image: url(../assets/searcher.svg)
+  /*background-size: 90%;
+  background-image: url(../assets/searcher.svg)*/
+}
+
+#magnifyingGlass {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
 }
 
 .headbarLine {
