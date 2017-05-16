@@ -70,7 +70,8 @@ p {
 }
 
 .profile {
-
+  color: #c1c1bf;
+  font-weight: 200;
 }
 
 #intercom-container {
