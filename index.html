@@ -29,7 +29,7 @@
         <tbody>
           <tr class="border-bottom"><td class="iconColumn"><img src="assets/humi_blue.png" id="humi-blue" class="boxIcons"/></td><td class="tableCategories">Humi Inc</td></tr>
           <tr class="border-bottom"><td class="iconColumn"><img src="assets/payroll.png" class="boxIcons"/></td class="tableCategories"><td>Payroll</td></tr>
-          <div class="arrow-up"></div>
+          <!-- <div class="arrow-up"></div> -->
           <tr class="border-bottom arrow_box" id="selectedRow"><td class="iconColumn"><img src="assets/settings.png" class="boxIcons"/></td class="tableCategories"><td>Settings</td></tr>
         </tbody>
       </table>
@@ -39,13 +39,13 @@
       <div class="payrollBox digestSettings">
         <div class="title">Payroll Digest Settings</div>
         <div class="payrollSettingsLine"></div>
-        <p class="grey-text">
+        <p class="darkgrey-text">
           Enter your <strong>payroll frequency</strong> and the date of your <strong>first payroll run this month</strong> below.<br />
           This will allow us to organize your Payroll Digest, and help you stay on top of syncing changes. <br />
           <br />
           Note that this setting is <strong>purely cosmetic</strong> and won't affect your real payroll in any way.<br />
           <form>
-            <p class="grey-text">
+            <p class="darkgrey-text">
               Payroll frequency
                 <select class=:digestBoxes>
                   <option value="Monthly">Monthly</option>
@@ -57,7 +57,7 @@
                 <input id="date" type="date" class="digestBoxes">
             </p>
 
-            <input type="submit" id="submit" class="digestBoxes" value="Save & Return &rarr;">
+            <button type="submit" id="submit" class="digestBoxes">Save & Return <img id="right-arrow" src="assets/right-arrow.png" /></button>
             <!-- <i class="arrow right"></i> -->
           </form>
         </p>
