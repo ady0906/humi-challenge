@@ -19,7 +19,8 @@ p {
 
 table {
   position: absolute;
-  border-collapse: collapse;
+  overflow: hidden;
+  border-collapse:collapse;
   border-width: 1px;
   border-color: rgba(0,0,0,0.05);
   border-style: solid;
@@ -31,6 +32,33 @@ table {
   padding-left: 6px;
   padding-top: 2px;
   z-index: 1;
+}
+
+.table_wrapper {
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.05);
+  border-style: solid;
+}
+
+.payrollBox {
+  position: absolute;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.05);
+  border-style: solid;
+  top: 5.5em;
+}
+
+.digestSettings {
+  left: 32em;
+  width: 40em;
+  height: 18em;
+}
+
+.title {
+  font-family: 'Hind', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #5b5b57;
 }
 
 a {
