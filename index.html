@@ -3,13 +3,14 @@
     <link href="https://fonts.googleapis.com/css?family=Hind:300,500" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <script>
-    window.intercomSettings = {
-      app_id: "nl0d65ty"
-    };
-    </script>
-    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/nl0d65ty';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+      window.intercomSettings = {
+        app_id: "nl0d65ty"
+      };
+      </script>
+      <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/nl0d65ty';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
     </script>
   </head>
+
   <body>
 
     <div class="headbar">
@@ -22,15 +23,18 @@
       </div>
     </div>
 
-
-
     <div class="table_wrapper">
       <table>
         <tbody>
-          <tr class="border-bottom"><td class="iconColumn"><img src="assets/humi_blue.png" id="humi-blue" class="boxIcons"/></td><td class="tableCategories">Humi Inc</td></tr>
-          <tr class="border-bottom"><td class="iconColumn"><img src="assets/payroll.png" class="boxIcons"/></td class="tableCategories"><td>Payroll</td></tr>
-          <!-- <div class="arrow-up"></div> -->
-          <tr class="border-bottom arrow_box" id="selectedRow"><td class="iconColumn"><img src="assets/settings.png" class="boxIcons"/></td class="tableCategories"><td>Settings</td></tr>
+          <tr class="border-bottom">
+            <td class="iconColumn"><img src="assets/humi_blue.png" id="humi-blue" class="boxIcons"/></td>
+            <td class="tableCategories">Humi Inc</td></tr>
+          <tr class="border-bottom">
+            <td class="iconColumn tableCategories"><img src="assets/payroll.png" class="boxIcons"/></td>
+            <td class="tableCategories">Payroll</td></tr>
+          <tr class="border-bottom arrow_box" id="selectedRow">
+            <td class="iconColumn"><img src="assets/settings.png" class="boxIcons"/></td>
+            <td class="tableCategories">Settings</td></tr>
         </tbody>
       </table>
     </div>
@@ -44,10 +48,11 @@
           This will allow us to organize your Payroll Digest, and help you stay on top of syncing changes. <br />
           <br />
           Note that this setting is <strong>purely cosmetic</strong> and won't affect your real payroll in any way.<br />
+
           <form>
             <p class="darkgrey-text">
               Payroll frequency
-                <select class=:digestBoxes>
+                <select class="digestBoxes">
                   <option value="Monthly">Monthly</option>
                   <option value="Weekly">Weekly</option>
                   <option value="Daily">Daily</option>
@@ -58,7 +63,6 @@
             </p>
 
             <button type="submit" id="submit" class="digestBoxes">Save & Return <img id="right-arrow" src="assets/right-arrow.png" /></button>
-            <!-- <i class="arrow right"></i> -->
           </form>
         </p>
       </div>

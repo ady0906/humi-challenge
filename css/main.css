@@ -61,10 +61,16 @@ select {
   width: 18em;
   height: 2.5em;
   margin-left: 80px;
+  padding-left: 8px;
   background-color: white;
   font-size: 14px;
   border-color: #5b5b57;
   border-radius: 7.5px;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../assets/down-arrow.png) 95% / 5.5% no-repeat white;
 }
 
 #date {
@@ -124,6 +130,8 @@ select {
   padding-top: 28px;
   padding-left: 20px;
   border-radius: 4px;
+  background-color: white;
+  z-index:2;
 }
 
 .title {
@@ -170,6 +178,8 @@ tr {
   height: 40px;
   padding-top: 23px;
   bottom: 0px;
+  background-color: white;
+  z-index: 3;
 }
 
 .logoHumi {
@@ -284,6 +294,7 @@ tr {
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 1;
 }
 
 .row {
