@@ -30,6 +30,7 @@ table {
   height: 11.5em;
   padding-left: 6px;
   padding-top: 2px;
+  z-index: 1;
 }
 
 a {
@@ -204,4 +205,16 @@ tr {
 .tableCategories {
   position: relative;
   top: 4px;
+}
+
+.arrow-up {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 12.78em;
+  left: 13.5em;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid white;
+  z-index: 2;
 }
