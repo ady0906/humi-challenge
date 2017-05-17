@@ -41,25 +41,29 @@ select {
   margin-left: 80px;
   background-color: white;
   font-size: 14px;
+  border-color: #5b5b57;
+  border-radius: 7.5px;
 }
 
 #date {
-  width: 18em;
-  height: 2.5em;
+  width: 17.4em;
+  height: 2.2em;
   font-size: 14px;
-  margin-left: 40px;
-  border-radius: 7.5px;
+  margin-left: 42px;
+  padding-left: 8px;
+  border-radius: 5.5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(0,0,0,0.05);
+  border-color: #5b5b57;
 }
 
 #submit {
   background-color: #6BBCF1;
   color: white;
+  border-color: #6FB9EF;
   border-radius: 7.5px;
   border-width: 1px;
-  margin-left: 14.32em;
+  margin-left: 14.4em;
   margin-top: 0.6em;
 }
 
