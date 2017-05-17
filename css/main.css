@@ -19,6 +19,7 @@ p {
 
 table {
   position: absolute;
+  border-collapse: collapse;
   border-width: 1px;
   border-color: rgba(0,0,0,0.05);
   border-style: solid;
@@ -26,7 +27,7 @@ table {
   left: 12em;
   border-radius: 2%;
   width: 18em;
-  height: 11em;
+  height: 11.5em;
   padding-left: 6px;
   padding-top: 2px;
 }
@@ -43,10 +44,20 @@ tr {
   color: #5b5b57;
   text-align: left;
   margin-left: 10px;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.05);
+  border-style: solid;
+  align: center;
+  background-color: #FAFAFA
+}
+
+#selectedRow {
+  background-color: white;
 }
 
 .iconColumn {
   width: 50px;
+  padding-left: 5px;
 }
 
 .headbar {
@@ -183,9 +194,14 @@ tr {
 }
 
 .boxIcons {
-  top: 3.2px;
+  top: 5px;
   left: 5px;
   position: relative;
   width: 32px;
   height: 32px;
+}
+
+.tableCategories {
+  position: relative;
+  top: 4px;
 }
