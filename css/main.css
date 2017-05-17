@@ -23,15 +23,16 @@ p {
 table {
   position: absolute;
   overflow: visible;
-  border-collapse:collapse;
-  border-width: 1px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1.4px;
   top: 5.5em;
   left: 9.5em;
   border-radius: 4px;
   width: 18em;
   height: 11.5em;
-  padding-left: 6px;
-  padding-top: 2px;
+  padding-left: 0;
+  padding-top: 0;
   z-index: 1;
 }
 
@@ -65,6 +66,12 @@ tr {
   border-width: 1px;
   align: center;
   background-color: #FAFAFA
+}
+
+tr.border_bottom td {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgba(0,0,0,0.05);
 }
 
 .grey-text {
@@ -125,7 +132,7 @@ tr {
 }
 
 .boxIcons {
-  top: 0px;
+  top: 5px;
   left: 5px;
   position: relative;
   width: 32px;
@@ -139,7 +146,9 @@ tr {
 
 .tableCategories {
   position: relative;
-  top: 4px;
+  line-height: 0px;
+  padding-top: 6px;
+  padding-left: 6px;
 }
 
 .digestSettings {
@@ -215,7 +224,7 @@ tr {
   position: absolute;
   left: 20px;
   right: 20px;
-  height: 1.5px;
+  height: 1.4px;
   bottom: 0px;
   background-color: rgba(0,0,0,0.05);
 }
@@ -272,7 +281,7 @@ tr {
   padding-left: 8px;
   padding-top: 2px;
   width: 278px;
-  height: 36px;
+  height: 34px;
 }
 
 #submit {
