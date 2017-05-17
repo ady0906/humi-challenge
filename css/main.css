@@ -1,3 +1,15 @@
+/*Refactoring*/
+
+.grey-text {
+  color: #c1c1bf;
+}
+
+.thin-font {
+  font-weight: 300;
+}
+
+
+
 body {
   width: 100%;
   margin: 0;
@@ -33,6 +45,12 @@ table {
   padding-left: 6px;
   padding-top: 2px;
   z-index: 1;
+}
+
+.table_wrapper {
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.05);
+  border-style: solid;
 }
 
 select {
@@ -75,12 +93,6 @@ select {
   border-radius: 7.5px;
   font-family: 'Hind', sans-serif;
   font-weight: 300;
-}
-
-.table_wrapper {
-  border-width: 1px;
-  border-color: rgba(0,0,0,0.05);
-  border-style: solid;
 }
 
 .payrollBox {
@@ -234,11 +246,6 @@ tr {
   line-height: 25px;
 }
 
-.profile {
-  color: #c1c1bf;
-  font-weight: 200;
-}
-
 .navBarRight {
   position: absolute;
   right: 60px;
@@ -250,14 +257,10 @@ tr {
   color: #c1c1bf;
   text-align: center;
   position: absolute;
-  font-size: 12.5px;
+  font-size: 13px;
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-#intercom-container {
-  background: #53bbf4 !important;
 }
 
 .row {
