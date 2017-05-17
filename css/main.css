@@ -12,6 +12,15 @@
   font-weight: 300;
 }
 
+.black-text {
+  color: #5b5b57;
+}
+
+.grey-border {
+  border-color: rgba(0,0,0,0.05);
+  border-style: solid;
+}
+
 
 
 body {
@@ -39,8 +48,6 @@ table {
   /*overflow: hidden;*/
   border-collapse:collapse;
   border-width: 1px;
-  border-color: rgba(0,0,0,0.05);
-  border-style: solid;
   top: 5.5em;
   left: 9.5em;
   border-radius: 4px;
@@ -74,9 +81,6 @@ select {
 }
 
 #date {
-  width: 17.4em;
-  height: 2.2em;
-  font-size: 14px;
   margin-left: 42px;
   padding-left: 8px;
   border-radius: 5.5px;
@@ -88,6 +92,7 @@ select {
 #submit {
   background-color: #6BBCF1;
   color: white;
+  border-style: solid;
   border-color: #6FB9EF;
   border-radius: 7.5px;
   border-width: 1px;
@@ -109,8 +114,6 @@ select {
   width: 18em;
   height: 2.5em;
   font-size: 14px;
-  border-style: solid;
-  border-radius: 7.5px;
   font-family: 'Hind', sans-serif;
   font-weight: 300;
 }
@@ -118,8 +121,6 @@ select {
 .payrollBox {
   position: absolute;
   border-width: 1px;
-  border-color: rgba(0,0,0,0.05);
-  border-style: solid;
   top: 5.5em;
 }
 
@@ -138,7 +139,6 @@ select {
   font-family: 'Hind', sans-serif;
   font-weight: 200;
   font-size: 20px;
-  color: #5b5b57;
 }
 
 a {
@@ -150,12 +150,9 @@ tr {
   font-family: 'Hind', sans-serif;
   font-weight: 200;
   font-size: 20px;
-  color: #5b5b57;
   text-align: left;
   margin-left: 10px;
   border-width: 1px;
-  border-color: rgba(0,0,0,0.05);
-  border-style: solid;
   align: center;
   background-color: #FAFAFA
 }
@@ -214,16 +211,16 @@ tr {
   background-image: url(../assets/avatar_ap.png)
 }
 
-.searchIcon {
+#searchIcon {
   position: absolute;
   width: 60px;
   height: 60px;
   left: 20px;
   bottom: 18px;
   border-radius: 50%;
-  border: 0.5px solid lightgrey;
-  /*background-size: 90%;
-  background-image: url(../assets/searcher.svg)*/
+  border-width: 0.5px;
+  border-style:solid;
+  border-color: lightgrey;
 }
 
 #magnifyingGlass {
@@ -234,7 +231,7 @@ tr {
   height: 30px;
 }
 
-.headbarLine {
+#headbarLine {
   position: absolute;
   left: 20px;
   right: 20px;
@@ -243,7 +240,7 @@ tr {
   background-color: rgba(0,0,0,0.05);
 }
 
-.payrollSettingsLine {
+#payrollSettingsLine {
   position: relative;
   height: 1.2px;
   left: -10px;
@@ -253,24 +250,16 @@ tr {
 }
 
 #humi-blue {
-  width: 32px;
-  height: 32px;
   border-radius: 8%;
   border-style: solid;
   border-width: 1px;
   border-color: #6FB9EF;
 }
 
-.userName {
-  font-weight: 200;
-  color: #5b5b57;
-}
-
-.textHeader {
+#textHeader {
   position: absolute;
   left: 55px;
   text-align: center;
-  color: #5b5b57;
 }
 
 .topBar {
@@ -297,16 +286,8 @@ tr {
   z-index: 1;
 }
 
-.row {
-  font-weight: 200;
-  font-size: 18px;
-  color: #5b5b57;
-  text-align: left;
-  margin-left: 10px;
-}
-
 .boxIcons {
-  top: 5px;
+  top: 0px;
   left: 5px;
   position: relative;
   width: 32px;
@@ -316,16 +297,4 @@ tr {
 .tableCategories {
   position: relative;
   top: 4px;
-}
-
-.arrow-up {
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 12.78em;
-  left: 11em;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid white;
-  z-index: 2;
 }
