@@ -43,7 +43,22 @@
           Enter your <strong>payroll frequency</strong> and the date of your <strong>first payroll run this month</strong> below.<br />
           This will allow us to organize your Payroll Digest, and help you stay on top of syncing changes. <br />
           <br />
-          Note that this setting is <strong>purely cosmetic</strong> and won't affect your real payroll in any way.
+          Note that this setting is <strong>purely cosmetic</strong> and won't affect your real payroll in any way.<br />
+          <form>
+            <p>
+              Payroll frequency
+                <select>
+                  <option value="Monthly">Monthly</option>
+                  <option value="Weekly">Weekly</option>
+                  <option value="Daily">Daily</option>
+                </select>
+              <br /><br />
+              1st Paydate This Month
+                <input id="date" type="date">
+            </p>
+
+            <input type="submit">
+          </form>
         </p>
       </div>
       <a href=#><div class="searchIcon"><img id="magnifyingGlass" src="assets/searcher.svg" /></div></a>
