@@ -26,7 +26,9 @@ table {
   left: 12em;
   border-radius: 2%;
   width: 18em;
-  height: 10.5em;
+  height: 11em;
+  padding-left: 6px;
+  padding-top: 2px;
 }
 
 a {
@@ -43,8 +45,8 @@ tr {
   margin-left: 10px;
 }
 
-.border_bottom {
-  border-bottom: solid black 1px;
+.iconColumn {
+  width: 50px;
 }
 
 .headbar {
@@ -181,7 +183,7 @@ tr {
 }
 
 .boxIcons {
-  top: 3.5px;
+  top: 3.2px;
   left: 5px;
   position: relative;
   width: 32px;
